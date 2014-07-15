@@ -27,6 +27,8 @@ Galería de fotos:
 
 Contacte:
 -	Afegir plànol de situació.
+
+
 Botiga:
 
 -	No s’utilitza, suprimir o deixar en construcció.
