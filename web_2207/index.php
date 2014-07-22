@@ -42,7 +42,7 @@ capsalera();
 										<ul id="tolbar2_1" class="nav">
 											<li>
 												<ul id="mainmenu" class="nav">
-													<li id="txt_boto_barra" class="active"><a href="index.html">Inici</a></li>
+													<li id="txt_boto_barra" class="active"><a href="index.php">Inici</a></li>
 													<li id="txt_boto_barra"><a href="historia.php">Història</a></li>
 													<li id="txt_boto_barra"><a href="galeria.php">Galeria</a></li>
 													<!--<li id="txt_boto_barra"><a href="botiga.php">Botiga</a></li>-->
@@ -61,7 +61,7 @@ capsalera();
 
 
 <div id="topic" class="container-fluid">
-  <div class="row-fluid">
+  <div class="row-fluid" style="margin-left:15px">
     <div class="span6"><!--columna text-->
     	<h1>Falcons de <br>Vallbona d'Anoia</h1>
     	<p class"txt_body">Els Falcons són una manifestació gimnàstica- esportiva apareguda a Catalunya a inicis del segle XX. En les nostres actuacions els Falcons fem construccions acrobàtiques que recorden els castells però amb més varietat de formes, menys participants i més varietat d'estils entre les diferents colles, si bé hi ha una part del repertori de figures comú a totes. Tot i que moltes construccions són de caràcter estàtic, l'aspecte dinàmic i coreogràfic hi té més importància que en els castells, així com l'efecte estètic buscat amb la composició de diferents figures simultànies.<br>
@@ -123,13 +123,6 @@ peu();
 
 </div>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-<!--<script src="_scripts/iealert/iealert.min.js"></script>
-<script src="_scripts/jquery/jquery.mobile.custom.min.js"></script>
-<script src="_scripts/colorbox/jquery.colorbox-min.js"></script>
-<script src="_scripts/cookie/jquery.ckie.min.js"></script>-->
-<script>function ucc(){var a=$.cookie("scwDj");if(!a||a=="")b=0;else{var b=0;var c=0;do{c=a.indexOf(")",c);if(c>0){e=c-1;while(e>=0&&a[e]!="=")e--;b+=parseInt(a.substring(e+1,c));c++}}while(c>0)}$("#sc_pcount").text(b)}function onChangeSiteLang(href){var i=location.href.indexOf("?");if(i>0)href+=location.href.substr(i);document.location.href=href;}</script>
 
 </body>
 

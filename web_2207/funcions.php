@@ -34,3 +34,11 @@ function peu(){echo "
 }
 
 ?>
+
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script src="_scripts/iealert/iealert.min.js"></script>
+<script src="_scripts/jquery/jquery.mobile.custom.min.js"></script>
+<script src="_scripts/colorbox/jquery.colorbox-min.js"></script>
+<script src="_scripts/cookie/jquery.ckie.min.js"></script>
+<script>function ucc(){var a=$.cookie("scwDj");if(!a||a=="")b=0;else{var b=0;var c=0;do{c=a.indexOf(")",c);if(c>0){e=c-1;while(e>=0&&a[e]!="=")e--;b+=parseInt(a.substring(e+1,c));c++}}while(c>0)}$("#sc_pcount").text(b)}function onChangeSiteLang(href){var i=location.href.indexOf("?");if(i>0)href+=location.href.substr(i);document.location.href=href;}</script>-->

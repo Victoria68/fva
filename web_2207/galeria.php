@@ -7,35 +7,56 @@ capsalera();
 <div id="site">
 		<div id="page">
 		
-			<header>
-				<!--<image src="img/escut_roba.jpg" style="no-repeat center top;height:150px" class="img-responsive"></image>-->
-								
+<header>
+				<div class="escut_caps"><img src="img/Escut150_72.png"></div>
+				<div class="mascota_caps"><img src="img/MASCOTA150_72.png"></div>
+							
 			</header>
 
-			<!--barra nevegació-->
+			<!--barra navegació-->
 			<div id="" class="nav">
 				
-				<div id="toolbar2" class="navbar">
+				<div id="barra" class="navbar">
 					<div id="sharebox"><!--icones face, google, mail-->
-						<a target="_blank" href="https://www.facebook.com/"><img style="width:24px;height:24px" src="img/tw-share-facebook@2x.png" alt=""></a>
-						<a target="_blank" href=""><img style="width:24px;height:24px" src="img/tw-share-google@2x.png" alt=""></a>
-						<a target="_blank" href="mailto:"><img style="width:24px;height:24px" src="img/tw-share-mail@2x.png" alt=""></a>
+						<a target="_blank" href="http://www.youtube.com/user/falconsdevallbona"><img style="width:24px;height:24px" src="img/1405677172_youtube.png" alt=""></a>
+						<a target="_blank" href="http://falconsdevallbona.blogspot.com.es/"><img style="width:24px;height:24px" src="img/1405677150_blogger.png" alt=""></a>
+						<a target="_blank" href="mailto:"><img style="width:24px;height:24px" src="img/1405676956_mail.png" alt=""></a>
+						<a target="_blank" href="https://www.facebook.com/falconsvallbona"><img style="width:24px;height:24px" src="img/1405677231_678128-social-facebook.png" alt=""></a>
 					</div>
 					<!--boto buscar-->
 					<div id="buscar" class="nav pull-right">
 						<li><form id="searchbox" class="navbar-search" action="_search.html"><input type="text" name="req" id="searchbox-req" class="search-query" placeholder="Buscar"></form></li>
 					</div>
-					<div  class="nav-collapse"><!--barra menu-->
-						<ul id="mainmenu" class="nav">
-							<li style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="index.php">Inici</a></li>
-							<li style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="historia.php">Història</a></li>
-							<li class="active" style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="galeria.php">Galeria</a></li>
-							<li style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="botiga.php">Botiga</a></li>
-							<li style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="contacte.php">Contacte</a></li>
-						</ul>
+					
+					<!--barra menu-->
+					<div id="toolbar2" class="navbar">
+  						<div class="navbar-falcons">
+   							<div class="container-fluid" id="padding0">
+		   						<button type="button" class="btn btn-navbar" style="float:left" data-toggle="collapse" data-target=".nav-collapse">
+		   						 	<span class="icon-bar"><!----></span>
+		   						 	<span class="icon-bar"><!----></span>
+		   						 	<span class="icon-bar"><!----></span>
+		   						</button>
+									<div  class="nav-collapse collapse">
+										<ul id="tolbar2_1" class="nav">
+											<li>
+												<ul id="mainmenu" class="nav">
+													<li id="txt_boto_barra" class="active"><a href="index.php">Inici</a></li>
+													<li id="txt_boto_barra"><a href="historia.php">Història</a></li>
+													<li id="txt_boto_barra"><a href="galeria.php">Galeria</a></li>
+													<!--<li id="txt_boto_barra"><a href="botiga.php">Botiga</a></li>-->
+													<li id="txt_boto_barra"><a href="contacte.php">Contacte</a></li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+							</div>
+						</div>
+
 					</div>
-				</div>
+				</div>  
 			</div>
+			
 		<div id="topic" class="row-fluid">
 			<div id="top-content" class="span12 gallery-idx ta-center"><h1 style="text-align:center">Galeria</h1>
 				<ul>
@@ -60,11 +81,6 @@ peu();
 
 </div>
 </div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="_scripts/bootstrap/js/bootstrap.min.js"></script>
-<script src="_scripts/iealert/iealert.min.js"></script>
-<script src="_scripts/colorbox/jquery.colorbox-min.js"></script>
-<script src="_scripts/cookie/jquery.ckie.min.js"></script>
-<script>function ucc(){var a=$.cookie("scwDj");if(!a||a=="")b=0;else{var b=0;var c=0;do{c=a.indexOf(")",c);if(c>0){e=c-1;while(e>=0&&a[e]!="=")e--;b+=parseInt(a.substring(e+1,c));c++}}while(c>0)}$("#sc_pcount").text(b)}function onChangeSiteLang(href){var i=location.href.indexOf("?");if(i>0)href+=location.href.substr(i);document.location.href=href;}</script>
+
 </body>
 </html>

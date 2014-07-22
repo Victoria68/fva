@@ -4,82 +4,122 @@ capsalera();
 ?>
 
 <body>
+
 <div id="site">
 		<div id="page">
 		
 			<header>
-				<!--<image src="img/escut_roba.jpg" style="no-repeat center top;height:150px" class="img-responsive"></image>-->
-								
+				<div class="escut_caps"><img src="img/Escut150_72.png"></div>
+				<div class="mascota_caps"><img src="img/MASCOTA150_72.png"></div>
+							
 			</header>
 
-			<!--barra nevegació-->
+			<!--barra navegació-->
 			<div id="" class="nav">
 				
-				<div id="toolbar2" class="navbar">
+				<div id="barra" class="navbar">
 					<div id="sharebox"><!--icones face, google, mail-->
-						<a target="_blank" href="https://www.facebook.com/"><img style="width:24px;height:24px" src="img/tw-share-facebook@2x.png" alt=""></a>
-						<a target="_blank" href=""><img style="width:24px;height:24px" src="img/tw-share-google@2x.png" alt=""></a>
-						<a target="_blank" href="mailto:"><img style="width:24px;height:24px" src="img/tw-share-mail@2x.png" alt=""></a>
+						<a target="_blank" href="http://www.youtube.com/user/falconsdevallbona"><img style="width:24px;height:24px" src="img/1405677172_youtube.png" alt=""></a>
+						<a target="_blank" href="http://falconsdevallbona.blogspot.com.es/"><img style="width:24px;height:24px" src="img/1405677150_blogger.png" alt=""></a>
+						<a target="_blank" href="mailto:"><img style="width:24px;height:24px" src="img/1405676956_mail.png" alt=""></a>
+						<a target="_blank" href="https://www.facebook.com/falconsvallbona"><img style="width:24px;height:24px" src="img/1405677231_678128-social-facebook.png" alt=""></a>
 					</div>
 					<!--boto buscar-->
 					<div id="buscar" class="nav pull-right">
 						<li><form id="searchbox" class="navbar-search" action="_search.html"><input type="text" name="req" id="searchbox-req" class="search-query" placeholder="Buscar"></form></li>
 					</div>
-					<div  class="nav-collapse"><!--barra menu-->
-						<ul id="mainmenu" class="nav">
-							<li style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="index.php">Inici</a></li>
-							<li class="active" style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="historia.php">Història</a></li>
-							<li style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="galeria.php">Galeria</a></li>
-							<li style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="botiga.php">Botiga</a></li>
-							<li style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="contacte.php">Contacte</a></li>
-						</ul>
+					
+					<!--barra menu-->
+					<div id="toolbar2" class="navbar">
+  						<div class="navbar-falcons">
+   							<div class="container-fluid" id="padding0">
+		   						<button type="button" class="btn btn-navbar" style="float:left" data-toggle="collapse" data-target=".nav-collapse">
+		   						 	<span class="icon-bar"><!----></span>
+		   						 	<span class="icon-bar"><!----></span>
+		   						 	<span class="icon-bar"><!----></span>
+		   						</button>
+									<div  class="nav-collapse collapse">
+										<ul id="tolbar2_1" class="nav">
+											<li>
+												<ul id="mainmenu" class="nav">
+													<li id="txt_boto_barra"><a href="index.php">Inici</a></li>
+													<li id="txt_boto_barra" class="active"><a href="historia.php">Història</a></li>
+													<li id="txt_boto_barra"><a href="galeria.php">Galeria</a></li>
+													<!--<li id="txt_boto_barra"><a href="botiga.php">Botiga</a></li>-->
+													<li id="txt_boto_barra"><a href="contacte.php">Contacte</a></li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+							</div>
+						</div>
+
 					</div>
-				</div>
+				</div>  
 			</div>
 
-		<div id="topic" class="row-fluid">
-			<div id="top-content" class="span12"><h1>Els Falcons</h1>
-				<div class="twpara-row row-fluid"><div id="MnvfTuyl" class="span12 tw-para "><h2>Historia</h2>
-						<div class="pobj float-l"><a href="_media/img/large/1004608-598900453465630-1740371336-n.jpg" rel="wxqQ">
-							<img class="frm-simple1"  src="_media/img/small/1004608-598900453465630-1740371336-n.jpg" style="max-width:100%;width:320px" alt=""></a>
-						</div>
-						<div class="ptext"><p>Primer de tot explicar-vos que som i que fem:<br><br>Els falcons són una manifestació gimnàstica - esportiva apareguda a Catalunya a inicis del segle XX, En les nostres actuacions els falcons fan construccions acrobàtiques, que recorden els castells, però amb més varietat de formes i amb menys participants, i també amb més varietat d'estils entre les diferents colles, si bé hi ha una part del repertori de figures comú a totes. Tot i que moltes construccions són de caràcter estàtic, l'aspecte dinàmic i coreogràfic hi té més importància que en els castells, així com l'efecte estètic buscat amb la composició de diferents figures simultànies.<br><br>La pràctica dels Falcons ha anat variant lleugerament des dels seus inicis, prenent influències castelleres pel que fa a la indumentària, que consisteix en pantaló i camisa blanques, faixa i espardenyes, o l'acompanyament de les gralles (sovint amb el mateix repertori típic de l'instrument i que es toca a les cercaviles castelleres), i incorporant a les seves construccions algunes figures inspirades en castells (aquestes acompanyades del toc de castells), com per exemple els pilars.Primer de tot explicar-vos que som i que fem:<br><br></p></div>
-				</div>
+
+
+<div id="topic" class="container-fluid">
+  <div class="row-fluid" style="">
+
+	<div class="span3" style="margin-top:20px"><!--columna fotos esquerra-->
+	    <div class="foto-border" style="padding-left:15px"><img src="img/historia/pilar_11092009.jpg" width="180px"><p class="peu_foto">11 setembre 2009</p></div>
+		<div class="foto-border"><img src="img/historia/pilars_sala_2009.jpg" width="180px" style="padding-left:15px"><p class="peu_foto" style="padding-left:15px">octubre 2009</p></div>
+	    <div class="foto-border" style="padding-left:15px"><img src="img/historia/figueretaBCN10J_2010.jpg" width="180px"><p class="peu_foto">2010: 10J a Barcelona</p></div>
+	    <div class="foto-border" style="padding-left:15px"><img src="img/historia/figueretaalta_montserrat_2010.jpg" width="180px"><p class="peu_foto">Montserrat 2010</p></div>
+	    <div class="foto-border" style="padding-left:15px"><img src="img/historia/lleons_2011.jpg" width="180px"><p class="peu_foto">2011</p></div>
+    </div>
+
+    <div class="span6"><!--columna text-->
+    	<h1>Història</h1>
+    	<p class"txt_body">La colla Falcons de Vallbona d’Anoia es va fundar oficialment com a colla el 31 d’octubre de 2009, encara que la primera actuació va ser l’onze de setembre a la serra de Castellet, indret conegut popularment com Les Banderes. La primera figura oficial va ser un pilar de 4 amb senyera al capdamunt, figura que encara avui és símbol de la colla. Va començar com una colla petita, amb una quinzena de membres, però amb molta il·lusió i ganes de treballar.
+
+<br><br>El març de 2010 es fa la primera actuació a la plaça de l’església de Vallbona, on ja es comencen a veure figures més treballades: pilars caminats, planxes rodades, ventalls i una pira, per acabar amb un pilar de 4 amb senyera inclosa.
+El mateix any, i durant les Festes del Roser, es fa el bateig de la colla, apadrinada per Falcons de Barcelona i amb Falcons de Llorenç del Penedès com a colla convidada. Falcons de Vallbona compta amb més membres, fet que els hi permet ampliar el ventall de figures a fer: el pilar de 3 net, el con, la “panxanguera”, la figuereta alta i baixa, la serra... Més endavant participem en la Trobada Nacional de Falcons a Perpinyà i a la manifestació del 10J a Barcelona, on juntament amb Falcons de Barcelona realitzen figures conjuntes que donen la volta al país gràcies als mitjans de comunicació. La temporada acaba a l’octubre amb la primera actuació a Montserrat durant la celebració de la Romeria, sortida que des d’aleshores s’ha intentat repetir cada any.
+
+<br><br>La temporada 2011 la colla es consolida i s’assoleixen grans fites: durant les Festes del Roser es munta per primera vegada la pira ..., la més alta aixecada per la colla fins aleshores, i es construeix una serra de .. puntes impecable. L’actuació es remata amb un pilar de 5, el primer que aconsegueix pujar una colla falconera. Aquest any els pilars esdevenen els protagonistes de les actuacions: es fan pilars de 2 i de 3 caminats, musicals i nets; pilars de 4 aixecats per sota, dobles i “solos”. El setembre, durant l’actuació de l’aniversari de la colla a Vallbona, es torna a carregar el pilar de 5 a la plaça de l'església.
+
+<br><br>El 2012 es personalitza la indumentària de la colla amb un nou color de faixa: el turquesa, color que a partir d’ara és símbol dels Falcons de Vallbona. Les actuacions continuen durant la temporada i no es fan construccions de tanta alçada com l’any anterior. Es fa una sortida a Baó, a la Catalunya nord, convidats pels Falcons del Riberal.
+
+<br><br>L’any 2013 es continua amb les actuacions arreu de Catalunya. La feina feta durant els anys anteriors dóna el seu fruit i es munten figures amb una estètica molt acurada. L’onze de setembre, quart aniversari de la fundació de la colla, participem en la Via Catalana.
+
+<br><br>El 2014 ens porta un membre molt especial a la colla: el Xiulet, la mascota dels Falcons de Vallbona. La seva arribada canvia la indumentària del grup: les enxanetes estrenen fundes turquesa amb el logotip del Xiulet, dibuix que també s’incorpora a les camises.
+</p><br>
+		
+		<div class="span12" style="margin-left:0px"><!--fotos centrals-->
+			<div class="span6">
+				<!--<div class="foto-border"><img src="img/historia/planxes_vallbona1_032010.jpg"><p class="peu_foto">2010</p></div>
+				<div class="foto-border"><img src="img/historia/ventall_032010.jpg"><p class="peu_foto">2010</p></div>-->
 			</div>
-			<div class="twpara-row row-fluid">
-				<div id="w8QkYoGb" class="span12 tw-para "><h2 style="text-align:left">Experiencia</h2>
-					<div class="ptext"><p>Desde l'any 2009 hem fet un munt d'atuacions a tota arreu de catalunya:</p>
-							<ul>
-								<li>Grans escenaris</li>
-								<li>Parcs Infantils</li>
-								<li>Zoo de Barcelona</li>
-								<li>Festes populars</li><li>Cervaviles</li>
-							</ul><p>Es a dir alla d'on volen gaudir del nostre espectacle y pasar una bona estona.</p>
-					</div>
-				</div>
+			<div class="span6">
+				<!--<div class="foto-border"><img src="img/historia/10J_BCN_2010.jpg"><p class="peu_foto">2010: Barcelona 10J</p></div>
+				<div class="foto-border"><img src="img/historia/pilarscam_2011.jpg"><p class="peu_foto">2011</p></div>-->
 			</div>
-			<div class="twpara-row row-fluid"><div id="fLNWusuK" class="span12 tw-para "><h2>Agraïments</h2>
-				<div class="ptext"><p><i class="fa fa-quote-left fa-3x pull-left ">​</i><em>Estem molt contents perquè un any més ens hem posat la gorra plegats!<br>Aquest 14 de desembre més de 7000 assistents han vingut al Zoo a donar-nos<br>suport, això ens omple d’alegria. Ens fa molta il·lusió veure com any rere<br>any, l’esforç i la feina, poc a poc, donen els seus fruits.<br><br><br>Us volem agrair de tot cor el vostre ajut, suport i col·laboració.<br>Gràcies a implicacions com la vostra, l’AFANOC pot anar avançant, tirant<br>endavant projectes i aconseguint entre tots els objectius. Les vostres<br>actuacions van ser espectaculars i ens van fer gaudir a tots plegats.<br>Gràcies per fer-ho possible. Us adjunto unes quantes fotografies del dia de<br>la festa que ens acaben d’arribar (potser repartides en dos emails).<br><br>Esperem comptar amb vosaltres un any més.<br><br><br><br>Salutacions,</em></p><br><br>
-				<p style="text-align: right; "><i>Eulalia Acuña-Administració Posa't la gorra.</i></p>
-				</div>
-			</div>
+
 		</div>
 	</div>
+    
+    <div class="span3" style="margin-top:20px"><!--columna fotos dreta-->
+    	<div class="foto-border" style="padding-left:15px"><img src="img/historia/pilar5_092011.jpg" width="180px"><p class="peu_foto">11 setembre 2011</p></div>
+    	<div class="foto-border" style="padding-left:15px"><img src="img/historia/cons_2013.jpg" width="180px"><p class="peu_foto">2013</p></div>
+    	<div class="foto-border" style="padding-left:15px"><img src="img/historia/pilar4_2013.jpg" width="180px"><p class="peu_foto">2013</p></div>
+    	<div class="foto-border" style="padding-left:15px"><img src="img/historia/serra_2013.jpg" width="180px"><p class="peu_foto">2013</p></div>
+    	<div class="foto-border" style="padding-left:15px"><img src="img/historia/pira_2014.jpg" width="180px"><p class="peu_foto">2014</p></div>
+    </div>
+    
 
+  </div>
 </div>
+
 
 <?php
 peu();
 ?>
 
-	</div>
 </div>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script src="_scripts/bootstrap/js/bootstrap.min.js"></script>
-<script src="_scripts/iealert/iealert.min.js"></script>
-<script src="_scripts/colorbox/jquery.colorbox-min.js"></script>
-<script src="_scripts/cookie/jquery.ckie.min.js"></script>
-<script>function ucc(){var a=$.cookie("scwDj");if(!a||a=="")b=0;else{var b=0;var c=0;do{c=a.indexOf(")",c);if(c>0){e=c-1;while(e>=0&&a[e]!="=")e--;b+=parseInt(a.substring(e+1,c));c++}}while(c>0)}$("#sc_pcount").text(b)}function onChangeSiteLang(href){var i=location.href.indexOf("?");if(i>0)href+=location.href.substr(i);document.location.href=href;}</script>
 
 </body>
+
 </html>
