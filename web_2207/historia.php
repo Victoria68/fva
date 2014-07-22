@@ -1,0 +1,85 @@
+<?php
+require_once('funcions.php');
+capsalera();
+?>
+
+<body>
+<div id="site">
+		<div id="page">
+		
+			<header>
+				<!--<image src="img/escut_roba.jpg" style="no-repeat center top;height:150px" class="img-responsive"></image>-->
+								
+			</header>
+
+			<!--barra nevegació-->
+			<div id="" class="nav">
+				
+				<div id="toolbar2" class="navbar">
+					<div id="sharebox"><!--icones face, google, mail-->
+						<a target="_blank" href="https://www.facebook.com/"><img style="width:24px;height:24px" src="img/tw-share-facebook@2x.png" alt=""></a>
+						<a target="_blank" href=""><img style="width:24px;height:24px" src="img/tw-share-google@2x.png" alt=""></a>
+						<a target="_blank" href="mailto:"><img style="width:24px;height:24px" src="img/tw-share-mail@2x.png" alt=""></a>
+					</div>
+					<!--boto buscar-->
+					<div id="buscar" class="nav pull-right">
+						<li><form id="searchbox" class="navbar-search" action="_search.html"><input type="text" name="req" id="searchbox-req" class="search-query" placeholder="Buscar"></form></li>
+					</div>
+					<div  class="nav-collapse"><!--barra menu-->
+						<ul id="mainmenu" class="nav">
+							<li style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="index.php">Inici</a></li>
+							<li class="active" style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="historia.php">Història</a></li>
+							<li style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="galeria.php">Galeria</a></li>
+							<li style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="botiga.php">Botiga</a></li>
+							<li style="width:100px;font-family:'Georgia',serif;font-size:16px;text-align:center"><a href="contacte.php">Contacte</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		<div id="topic" class="row-fluid">
+			<div id="top-content" class="span12"><h1>Els Falcons</h1>
+				<div class="twpara-row row-fluid"><div id="MnvfTuyl" class="span12 tw-para "><h2>Historia</h2>
+						<div class="pobj float-l"><a href="_media/img/large/1004608-598900453465630-1740371336-n.jpg" rel="wxqQ">
+							<img class="frm-simple1"  src="_media/img/small/1004608-598900453465630-1740371336-n.jpg" style="max-width:100%;width:320px" alt=""></a>
+						</div>
+						<div class="ptext"><p>Primer de tot explicar-vos que som i que fem:<br><br>Els falcons són una manifestació gimnàstica - esportiva apareguda a Catalunya a inicis del segle XX, En les nostres actuacions els falcons fan construccions acrobàtiques, que recorden els castells, però amb més varietat de formes i amb menys participants, i també amb més varietat d'estils entre les diferents colles, si bé hi ha una part del repertori de figures comú a totes. Tot i que moltes construccions són de caràcter estàtic, l'aspecte dinàmic i coreogràfic hi té més importància que en els castells, així com l'efecte estètic buscat amb la composició de diferents figures simultànies.<br><br>La pràctica dels Falcons ha anat variant lleugerament des dels seus inicis, prenent influències castelleres pel que fa a la indumentària, que consisteix en pantaló i camisa blanques, faixa i espardenyes, o l'acompanyament de les gralles (sovint amb el mateix repertori típic de l'instrument i que es toca a les cercaviles castelleres), i incorporant a les seves construccions algunes figures inspirades en castells (aquestes acompanyades del toc de castells), com per exemple els pilars.Primer de tot explicar-vos que som i que fem:<br><br></p></div>
+				</div>
+			</div>
+			<div class="twpara-row row-fluid">
+				<div id="w8QkYoGb" class="span12 tw-para "><h2 style="text-align:left">Experiencia</h2>
+					<div class="ptext"><p>Desde l'any 2009 hem fet un munt d'atuacions a tota arreu de catalunya:</p>
+							<ul>
+								<li>Grans escenaris</li>
+								<li>Parcs Infantils</li>
+								<li>Zoo de Barcelona</li>
+								<li>Festes populars</li><li>Cervaviles</li>
+							</ul><p>Es a dir alla d'on volen gaudir del nostre espectacle y pasar una bona estona.</p>
+					</div>
+				</div>
+			</div>
+			<div class="twpara-row row-fluid"><div id="fLNWusuK" class="span12 tw-para "><h2>Agraïments</h2>
+				<div class="ptext"><p><i class="fa fa-quote-left fa-3x pull-left ">​</i><em>Estem molt contents perquè un any més ens hem posat la gorra plegats!<br>Aquest 14 de desembre més de 7000 assistents han vingut al Zoo a donar-nos<br>suport, això ens omple d’alegria. Ens fa molta il·lusió veure com any rere<br>any, l’esforç i la feina, poc a poc, donen els seus fruits.<br><br><br>Us volem agrair de tot cor el vostre ajut, suport i col·laboració.<br>Gràcies a implicacions com la vostra, l’AFANOC pot anar avançant, tirant<br>endavant projectes i aconseguint entre tots els objectius. Les vostres<br>actuacions van ser espectaculars i ens van fer gaudir a tots plegats.<br>Gràcies per fer-ho possible. Us adjunto unes quantes fotografies del dia de<br>la festa que ens acaben d’arribar (potser repartides en dos emails).<br><br>Esperem comptar amb vosaltres un any més.<br><br><br><br>Salutacions,</em></p><br><br>
+				<p style="text-align: right; "><i>Eulalia Acuña-Administració Posa't la gorra.</i></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<?php
+peu();
+?>
+
+	</div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script src="_scripts/bootstrap/js/bootstrap.min.js"></script>
+<script src="_scripts/iealert/iealert.min.js"></script>
+<script src="_scripts/colorbox/jquery.colorbox-min.js"></script>
+<script src="_scripts/cookie/jquery.ckie.min.js"></script>
+<script>function ucc(){var a=$.cookie("scwDj");if(!a||a=="")b=0;else{var b=0;var c=0;do{c=a.indexOf(")",c);if(c>0){e=c-1;while(e>=0&&a[e]!="=")e--;b+=parseInt(a.substring(e+1,c));c++}}while(c>0)}$("#sc_pcount").text(b)}function onChangeSiteLang(href){var i=location.href.indexOf("?");if(i>0)href+=location.href.substr(i);document.location.href=href;}</script>
+
+</body>
+</html>
