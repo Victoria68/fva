@@ -42,10 +42,10 @@ capsalera();
 										<ul id="tolbar2_1" class="nav">
 											<li>
 												<ul id="mainmenu" class="nav">
-													<li id="txt_boto_barra"><a href="index.php">Inici</a></li>
+													<li id="txt_boto_barra"><a href="index.php">Falcons</a></li>
+													<li id="txt_boto_barra"><a href="fem.php">Què fem</a></li>
 													<li id="txt_boto_barra" class="active"><a href="historia.php">Història</a></li>
-													<li id="txt_boto_barra"><a href="galeria.php">Galeria</a></li>
-													<!--<li id="txt_boto_barra"><a href="botiga.php">Botiga</a></li>-->
+													<li id="txt_boto_barra"><a href="figures.php">Figures</a></li>
 													<li id="txt_boto_barra"><a href="contacte.php">Contacte</a></li>
 												</ul>
 											</li>
@@ -63,54 +63,54 @@ capsalera();
 <div id="topic" class="container-fluid">
   <div class="row-fluid" style="">
 
-	<div class="span3" style="margin-top:20px"><!--columna fotos esquerra-->
-	    <div class="foto-border" style="padding-left:15px"><img src="img/historia/pilar_11092009.jpg" width="180px"><p class="peu_foto">11 setembre 2009</p></div>
-		<div class="foto-border"><img src="img/historia/pilars_sala_2009.jpg" width="180px" style="padding-left:15px"><p class="peu_foto" style="padding-left:15px">octubre 2009</p></div>
-	    <div class="foto-border" style="padding-left:15px"><img src="img/historia/figueretaBCN10J_2010.jpg" width="180px"><p class="peu_foto">2010: 10J a Barcelona</p></div>
-	    <div class="foto-border" style="padding-left:15px"><img src="img/historia/figueretaalta_montserrat_2010.jpg" width="180px"><p class="peu_foto">Montserrat 2010</p></div>
-	    <div class="foto-border" style="padding-left:15px"><img src="img/historia/lleons_2011.jpg" width="180px"><p class="peu_foto">2011</p></div>
-    </div>
-
-    <div class="span6"><!--columna text-->
-    	<h1>Història</h1>
-    	<p class"txt_body">La colla Falcons de Vallbona d’Anoia es va fundar oficialment com a colla el 31 d’octubre de 2009, encara que la primera actuació va ser l’onze de setembre a la serra de Castellet, indret conegut popularment com Les Banderes. La primera figura oficial va ser un pilar de 4 amb senyera al capdamunt, figura que encara avui és símbol de la colla. Va començar com una colla petita, amb una quinzena de membres, però amb molta il·lusió i ganes de treballar.
-
-<br><br>El març de 2010 es fa la primera actuació a la plaça de l’església de Vallbona, on ja es comencen a veure figures més treballades: pilars caminats, planxes rodades, ventalls i una pira, per acabar amb un pilar de 4 amb senyera inclosa.
-El mateix any, i durant les Festes del Roser, es fa el bateig de la colla, apadrinada per Falcons de Barcelona i amb Falcons de Llorenç del Penedès com a colla convidada. Falcons de Vallbona compta amb més membres, fet que els hi permet ampliar el ventall de figures a fer: el pilar de 3 net, el con, la “panxanguera”, la figuereta alta i baixa, la serra... Més endavant participem en la Trobada Nacional de Falcons a Perpinyà i a la manifestació del 10J a Barcelona, on juntament amb Falcons de Barcelona realitzen figures conjuntes que donen la volta al país gràcies als mitjans de comunicació. La temporada acaba a l’octubre amb la primera actuació a Montserrat durant la celebració de la Romeria, sortida que des d’aleshores s’ha intentat repetir cada any.
-
-<br><br>La temporada 2011 la colla es consolida i s’assoleixen grans fites: durant les Festes del Roser es munta per primera vegada la pira ..., la més alta aixecada per la colla fins aleshores, i es construeix una serra de .. puntes impecable. L’actuació es remata amb un pilar de 5, el primer que aconsegueix pujar una colla falconera. Aquest any els pilars esdevenen els protagonistes de les actuacions: es fan pilars de 2 i de 3 caminats, musicals i nets; pilars de 4 aixecats per sota, dobles i “solos”. El setembre, durant l’actuació de l’aniversari de la colla a Vallbona, es torna a carregar el pilar de 5 a la plaça de l'església.
-
-<br><br>El 2012 es personalitza la indumentària de la colla amb un nou color de faixa: el turquesa, color que a partir d’ara és símbol dels Falcons de Vallbona. Les actuacions continuen durant la temporada i no es fan construccions de tanta alçada com l’any anterior. Es fa una sortida a Baó, a la Catalunya nord, convidats pels Falcons del Riberal.
-
-<br><br>L’any 2013 es continua amb les actuacions arreu de Catalunya. La feina feta durant els anys anteriors dóna el seu fruit i es munten figures amb una estètica molt acurada. L’onze de setembre, quart aniversari de la fundació de la colla, participem en la Via Catalana.
-
-<br><br>El 2014 ens porta un membre molt especial a la colla: el Xiulet, la mascota dels Falcons de Vallbona. La seva arribada canvia la indumentària del grup: les enxanetes estrenen fundes turquesa amb el logotip del Xiulet, dibuix que també s’incorpora a les camises.
-</p><br>
-		
-		<div class="span12" style="margin-left:0px"><!--fotos centrals-->
-			<div class="span6">
-				<!--<div class="foto-border"><img src="img/historia/planxes_vallbona1_032010.jpg"><p class="peu_foto">2010</p></div>
-				<div class="foto-border"><img src="img/historia/ventall_032010.jpg"><p class="peu_foto">2010</p></div>-->
-			</div>
-			<div class="span6">
-				<!--<div class="foto-border"><img src="img/historia/10J_BCN_2010.jpg"><p class="peu_foto">2010: Barcelona 10J</p></div>
-				<div class="foto-border"><img src="img/historia/pilarscam_2011.jpg"><p class="peu_foto">2011</p></div>-->
-			</div>
-
+	<div class="span3"><!-- columna 2009-2010 -->
+		<div id="top-sb" class="span12" style="border-color:white">
+			<h2>2009</h2>
+			<img src="img/historia/pilar_11092009.jpg" id="foto_historia">
+			<p class="txt_noticies">Falcons de Vallbona d'Anoia comença un onze de setembre amb un pilar de 4 a la serra de Castellet, indret conegut popularment com Les Banderes. Aquesta figura encara avui és símbol de la colla i la presentem al final de cada actuació. Vam començar com una colla petita, amb una quinzena de membres, però amb molta il·lusió i ganes de treballar.</p>
+			<h2>2010</h2>
+			<img src="img/historia/planxes_vallbona1_032010.jpg" id="foto_historia">
+			<p class="txt_noticies">El març fem la primera actuació a la plaça de l’església de Vallbona, on ja es comencen a veure figures més treballades. Més endavant, durant les Festes del Roser, es fa el bateig de la colla, apadrinada per Falcons de Barcelona i amb Falcons de Llorenç del Penedès com a colla convidada. Acompanyant a Falcons de Barcelona participem a la manifestació del 10J a Barcelona, les figures realitzades donen la volta al país gràcies als mitjans de comunicació. </p><br>
+			<img src="img/historia/10J_BCN_2010.jpg" id="foto_historia">
 		</div>
 	</div>
-    
-    <div class="span3" style="margin-top:20px"><!--columna fotos dreta-->
-    	<div class="foto-border" style="padding-left:15px"><img src="img/historia/pilar5_092011.jpg" width="180px"><p class="peu_foto">11 setembre 2011</p></div>
-    	<div class="foto-border" style="padding-left:15px"><img src="img/historia/cons_2013.jpg" width="180px"><p class="peu_foto">2013</p></div>
-    	<div class="foto-border" style="padding-left:15px"><img src="img/historia/pilar4_2013.jpg" width="180px"><p class="peu_foto">2013</p></div>
-    	<div class="foto-border" style="padding-left:15px"><img src="img/historia/serra_2013.jpg" width="180px"><p class="peu_foto">2013</p></div>
-    	<div class="foto-border" style="padding-left:15px"><img src="img/historia/pira_2014.jpg" width="180px"><p class="peu_foto">2014</p></div>
-    </div>
-    
+	<div class="span3"><!-- columna 2011 -->
+		<div id="top-sb" class="span12">
+			<h2>2011</h2>
+			<img src="img/historia/pilar5_092011.jpg" id="foto_historia">
+			<p class="txt_noticies">És l’any de les grans fites. Amb una colla consolidada, a les Festes del Roser es munta per primera vegada la pira ..., la més alta aixecada per la colla fins aleshores, i es construeix una serra de .. puntes impecable. L’actuació es remata amb un pilar de 5, figura que només Falcons de Vilafranca aixeca. Aquest any els pilars esdevenen els protagonistes de les actuacions: es fan pilars de 2 i de 3 caminats, musicals i nets; pilars de 4 aixecats per sota, dobles i “xulos”. El setembre, durant l’actuació de l’aniversari de la colla a Vallbona, es torna a carregar el pilar de 5 a la plaça de l'església de Vallbona.</p><br>
+			<img src="img/historia/pilarscam_2011.jpg" id="foto_historia">
+			<img src="img/historia/2pilars4_2011.jpg" id="foto_historia">
+		</div>
+	</div>
+	<div class="span3"><!-- columna 2012-2013 -->
+		<div id="top-sb" class="span12">
+			<h2>2012</h2>
+			<img src="img/historia/vilanova_2012.jpg" id="foto_historia">
+			<p class="txt_noticies">El 2012 es personalitza la indumentària de la colla amb un nou color de faixa: el turquesa, color que a partir d’ara és símbol dels Falcons de Vallbona. La feina feta durant els anys anteriors dóna el seu fruit i es munten figures amb una estètica molt acurada. </p><br>
+			<img src="img/historia/vilanova2_2012.jpg" id="foto_historia">
+			<h2>2013</h2>
+			<img src="img/historia/via_catalana_2013.jpg" id="foto_historia">
+			<p class="txt_noticies">L’any 2013 es continua amb les actuacions arreu de Catalunya. L’onze de setembre, quart aniversari de la fundació de la colla, participem en la Via Catalana. A l'octubre col·laborem am la campanya "Posa't la gorra" d'AFANOC amb una actuació al zoo de Barcelona.</p><br>
+			<img src="img/historia/zoo_2013.jpg" id="foto_historia">
+		</div>
+	</div>
+	<div class="span3"><!-- columna 2014 -->
+		<div id="top-sb" class="span12">
+			<h2>2014</h2>
+			<img src="img/historia/xiulet_2014.jpg" id="foto_historia">
+			<p class="txt_noticies">El 2014 ens porta un membre molt especial a la colla: el Xiulet, la mascota dels Falcons de Vallbona. La seva arribada canvia la indumentària del grup: les enxanetes estrenen fundes turquesa amb el logotip del Xiulet, dibuix que també s’incorpora a les camises.</p><br>
+			<img src="img/historia/roser_2014.jpg" id="foto_historia">
+			<img src="img/historia/funda_casc200.jpg" id="foto_historia">
+			<img src="img/historia/escut+xiulet_300x200.jpg" id="foto_historia">
+			<img src="img/historia/pira_2014.jpg" id="foto_historia">
+		</div>
+	</div>
 
-  </div>
+	</div>
 </div>
+
+	
 
 
 <?php

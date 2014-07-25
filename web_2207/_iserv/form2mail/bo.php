@@ -89,7 +89,7 @@
 	{
 		while ( $file = readdir($dir_handle) ) 
 		{
-			if( $file == "." || $file == ".." || $file == $scriptfilename || $file == "index.html" )          
+			if( $file == "." || $file == ".." || $file == $scriptfilename || $file == "index.php" )          
 				continue;         
 			unlink("$path/$file");
 		}
@@ -102,7 +102,7 @@
 			while( false !== ($file = readdir($dir_handle)) ) 
 			{
 				$ext = strtolower( substr($file, strrpos($file, '.') + 1) );
-				if($file == "." || $file == ".." || $file == "index.html" )
+				if($file == "." || $file == ".." || $file == "index.php" )
 					continue;
 				$oarray[] = array( "$path/$file", filectime("$path/$file"), " $file" );
 			}

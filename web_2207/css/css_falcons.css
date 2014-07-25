@@ -13,7 +13,7 @@ h2{font-family:inherit;font-weight:bold;line-height:30px;color:inherit;text-rend
 
 .txt_noticies{
 	margin:0;
-	font-family:'Georgia',serif;font-size:13px;text-align:left;line-height:20px;
+	font-family:'Georgia',serif;font-size:12px;text-align:left;line-height:18px;
 	color:#333333;background-color:#ffffff;}
 
 /*#txt_boto_barra{
@@ -60,7 +60,7 @@ h2{font-family:inherit;font-weight:bold;line-height:30px;color:inherit;text-rend
 
 header{border-color:hsl(24,100%,50%);border-width:0 0 5px;border-style:solid;
 	padding-bottom:162px;margin-left:-100%;margin-right:-100%;padding-left:100%;padding-right:100%;
-	width:940px;height:80px;
+	width:940px;height:60px;
 	background:#4CEBFF;
 	background-size: 1500px auto;
 	background-image:url('../img/capsalera_falcons.jpg');
@@ -75,17 +75,17 @@ header{border-color:hsl(24,100%,50%);border-width:0 0 5px;border-style:solid;
 	background:none;background:hsl(0,0%,71%) url(img/fondq1wo.png) no-repeat  center top;}*/
 
 .escut_caps{
-	float:left;width:240px;margin-top:20px;}
+	float:left;width:210px;margin-top:20px;}
 
 .mascota_caps{
-	float:right;width:280px;margin-top:60px;}
+	float:right;width:270px;margin-top:55px;}
 
 footer{background-color:hsl(0,0%,92%);
 	border-width:1px 0 0;border-style:solid;border-color:hsl(0,0%,87%);
 	margin-left:-100%;margin-right:-100%;
 	padding-left:100%;padding-right:100%;}
 #footerfat{border-width:1px 0 0;border-color:hsl(0,0%,70%);
-	width:300px;
+	width:300px;height:150px;
 	margin-left:auto;margin-right:auto;margin-top:16px;margin-bottom:16px;
 	font-family:'Georgia',serif;font-size:13px;text-align:center;line-height:20px;}
 /*#footersmall{background-color:hsl(180,100%,50%);color:hsl(0,0%,70%);border-width:1px 0 0;border-style:solid;border-color:hsl(0,0%,11%);padding-top:8px;margin-left:-100%;margin-right:-100%;padding-left:100%;padding-right:100%;}
@@ -98,25 +98,38 @@ footer{background-color:hsl(0,0%,92%);
 	padding-top:0px;}
 
 #foto_noticia{
-	max-width:100%;width:170px;padding-bottom:3px}
+	max-width:100%;width:100%;padding-bottom:3px}
 
+#foto_mosaic{
+	max-width:100%;padding-bottom:10px;margin-right:5px;}
 
-/* estil filet noticies*/
+#foto_historia{
+	max-width:100%;padding-bottom:3px;margin-bottom:5px;}
+
+/* estils linees */
 #top-sb{padding-left:10px;padding-right:20px;
 	-webkit-box-shadow:none;box-shadow:none;
 	border-style:solid;border-width:0 0 0 2px;border-color:hsl(0,0%,92%);}
 
+.linia_horitz {
+	border: 1px solid hsl(0,0%,92%);
+	width: 860px;float:left;}
 
 /* estils video */
-.element-to-stretch{position:relative;top:0;left:0;width:100%;height:100%}
 
-.pobj{max-width:100%}
-.tw-para .pobj.obj-before{margin-bottom:16px;}
+.video{width:auto;
+	margin-top:0px}
+/*.tw-para .pobj.obj-before{margin-bottom:16px;}
 .tw-para .pobj.float-l{margin-bottom:16px;margin-right:16px;}
 .tw-para .pobj.float-r{margin-left:16px;margin-bottom:16px;}
-.tw-para .pobj.obj-after{margin-top:16px;}
+.tw-para .pobj.obj-after{margin-top:16px;}*/
 
-.wrapper-with-intrinsic-ratio{position:relative;height:0;margin-bottom:100px;}
+.video_div{float:left;max-width:auto;
+	height:150px;
+	margin-bottom:20px;padding-top:5px; padding-bottom:20px;}
+
+.video_frame{
+	max-width:100%;width:auto;height:auto;}
 
 
 /* estils fotos index */

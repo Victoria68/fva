@@ -31,7 +31,7 @@
 			exit;
 		}
 		else {
-			touch( 'data/index.html' );
+			touch( 'data/index.php' );
 		}
 	}
 	chdir( 'data' );

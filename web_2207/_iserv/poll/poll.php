@@ -1,5 +1,5 @@
 <?php
-define( "HTML_FILE", "index.html" );
+define( "HTML_FILE", "index.php" );
 define( "DEFAULT_VOTE_COLOR", "#3399FF" );
 define( "VISITOR_VOTE_COLOR", "#FF9900" );
 $polls_def = array( 
@@ -54,11 +54,11 @@ if( $_REQUEST['clear'] == '1' ) {
 	unset( $_COOKIE[ "vote_".$poll_uid ] );
 	setcookie( "vote_".$poll_uid, "", time()-3600, "/" ); 
 	die( '<script>' .
-		 'window.location.href="../../index.html";' .
+		 'window.location.href="../../index.php";' .
 		 '</script>' );
 } else if( $_REQUEST['view'] == '1' ) {
     setcookie( "vote_".$poll_uid, "0", time()+31556926, "/" ); 
-	die( '<script>window.location.href="../../index.html";</script>' );
+	die( '<script>window.location.href="../../index.php";</script>' );
 } else if( $_REQUEST['vote'] ) {
   poll_ajax( $_REQUEST['vote'] );
 } else if( $_REQUEST['poll'] ) {

@@ -17,10 +17,10 @@
 		if( is_dir( $idir ) )
 		{
 			$result = "";
-			if( file_exists( $idir .'/index.html' ) ) {
+			if( file_exists( $idir .'/index.php' ) ) {
 				$result = "$iserv ok<br>";
 			} else {
-			    if( !$handle = fopen( $idir .'/index.html', 'w' ) ) {
+			    if( !$handle = fopen( $idir .'/index.php', 'w' ) ) {
 					$result = "$iserv KO<br>";
 			    } else {
 					if( fwrite($handle, " ") === FALSE ) {
