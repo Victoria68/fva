@@ -1,0 +1,1 @@
+﻿function PW_PayPal(divid){var pform='<input type="button" class="btn btn-primary" value="Proceder al pago" onclick="javascript:alert(\'';pform+='Modo de demostración: la edición de TOWeb e-Commerce es necesario para utilizar este modo de pago.';pform+='\')" >';if(divid)$("#"+divid).html( pform );return pform;}
