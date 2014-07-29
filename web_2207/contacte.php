@@ -14,50 +14,40 @@ capsalera();
 							
 			</header>
 
-			<!--barra navegació-->
-			<div id="" class="nav">
-				
-				<div id="barra" class="navbar">
-					<div id="sharebox"><!--icones face, google, mail-->
+		<!--barra navegació-->
+		<div class="navbar">
+			<div class="navbar-inner" id="barra_menu">
+				<button type="button" class="btn btn-navbar" style="float:left" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"><!----></span>
+					<span class="icon-bar"><!----></span>
+					<span class="icon-bar"><!----></span>
+				</button>
+				<div class="nav-collapse collapse">
+				    <ul class="nav" id="mainmenu" style="max-width:100%;padding-right:15px">
+				    	<!--<li id="boto_barra"><a href="fva.php">FVA</a></li>-->
+				    	<li id="boto_barra"><a href="index.php">Falcons</a></li>
+				    	<li id="boto_barra"><a href="fem.php">Què fem</a></li>
+				    	<li id="boto_barra"><a href="historia.php">Història</a></li>
+				    	<li id="boto_barra"><a href="figures.php">Figures</a></li>
+				    	<li id="boto_barra" class="active"><a href="contacte.php">Contacte</a></li>
+				    </ul>
+				    <!--icones face, google, mail-->
+				    <div id="sharebox"><!--icones face, google, mail-->
 						<a target="_blank" href="http://www.youtube.com/user/falconsdevallbona"><img style="width:24px;height:24px" src="img/1405677172_youtube.png" alt=""></a>
 						<a target="_blank" href="http://falconsdevallbona.blogspot.com.es/"><img style="width:24px;height:24px" src="img/1405677150_blogger.png" alt=""></a>
 						<a target="_blank" href="mailto:"><img style="width:24px;height:24px" src="img/1405676956_mail.png" alt=""></a>
 						<a target="_blank" href="https://www.facebook.com/falconsvallbona"><img style="width:24px;height:24px" src="img/1405677231_678128-social-facebook.png" alt=""></a>
 					</div>
-					<!--boto buscar-->
-					<div id="buscar" class="nav pull-right">
+				</div>
+				<!--boto buscar-->
+					<!--<div class="nav pull-right">
 						<li><form id="searchbox" class="navbar-search" action="_search.html"><input type="text" name="req" id="searchbox-req" class="search-query" placeholder="Buscar"></form></li>
-					</div>
-					
-					<!--barra menu-->
-					<div id="toolbar2" class="navbar">
-  						<div class="navbar-falcons">
-   							<div class="container-fluid" id="padding0">
-		   						<button type="button" class="btn btn-navbar" style="float:left" data-toggle="collapse" data-target=".nav-collapse">
-		   						 	<span class="icon-bar"><!----></span>
-		   						 	<span class="icon-bar"><!----></span>
-		   						 	<span class="icon-bar"><!----></span>
-		   						</button>
-									<div  class="nav-collapse collapse">
-										<ul id="tolbar2_1" class="nav">
-											<li>
-												<ul id="mainmenu" class="nav">
-													<li id="txt_boto_barra"><a href="index.php">Falcons</a></li>
-													<li id="txt_boto_barra"><a href="fem.php">Què fem</a></li>
-													<li id="txt_boto_barra"><a href="historia.php">Història</a></li>
-													<li id="txt_boto_barra"><a href="figures.php">Figures</a></li>
-													<li id="txt_boto_barra" class="active"><a href="contacte.php">Contacte</a></li>
-												</ul>
-											</li>
-										</ul>
-									</div>
-							</div>
-						</div>
-
-					</div>
-				</div>  
+					</div>-->
+				<form class="navbar-search pull-left" style="float:right;margin-top:10px">
+  					<input type="text" class="search-query" style="width:120px" placeholder="Buscar">
+				</form>
 			</div>
-
+		</div>
 
 
 		<div id="topic" class="container-fluid">
@@ -75,14 +65,6 @@ capsalera();
 							</div>
 						</div>
 					</div>
-
-					<!-- adreça -->
-					<!--<div class="row-fluid">
-						<div><h2></h2>
-							<div class="ptext"><p>c/Major 110<br>08785 Vallbona d'Anoia (Barcelona)<br>Tel: 628 746 305<br>fva@falconsdevallbonadanoia.com</p></div>
-						</div>
-					</div>-->
-
 				</div>
 
 
@@ -91,33 +73,42 @@ capsalera();
 						<div id="top-sb" class="span12">
 							<div class="ptext"><p>Per qualsevol informació ompliu el seguent formulari i ens posarem en contacte amb volsatres.</p>
 									<div class="span12" style="margin-left:0px">
-										<form class="form-horizontal" name="F4FV3e2TP" id="F4FV3e2TP" onsubmit="return validateForm_4FV3e2TP( this );" method="POST" action="_iserv/form2mail/form2mail.php" target="_top" enctype="multipart/form-data"><input type="hidden" name="f2mlang" value="es"><input type="hidden" name="f2msitelang" value="es"><input type="hidden" name="f2memail" value="fva@falconsdevallbonadanoia.com"><input type="hidden" name="f2memail_exp" value=""><input type="hidden" name="f2msubj" id="Contact" value="Contact"><input type="hidden" name="f2murl" value="http://www.falconsdevallbonadanoia.com/index.html">
-											<div class="control-group"><label class="control-label required" for="nom" style="text-align:left">Nom</label>
-												<div class="controls" style="margin-left:0px"><input type="text" name="nom" id="nom" value="" maxlength="50" class="input-large" required>
-												</div>
-											</div>
-											<div class="control-group"><label class="control-label required" for="email" style="text-align:left">Email</label>
-												<div class="controls" style="margin-left:0px"><input type="email" name="email" id="email" value="" class="input-large" required pattern="^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$" title="Información Email debe ser una dirección válida de correo electrónico">
-												</div>
-											</div>
-											<div class="control-group"><label class="control-label" for="asumpte" style="text-align:left">Asumpte</label>
-												<div class="controls" style="margin-left:0px"><select name="asumpte" class="input-large"><option value="contractaci">Contractació</option><option value="informaci">Informació</option><option value="altres">Altres...</option></select>
-												</div>
-											</div>
-											<!--<div class="control-group"><label class="control-label" for="fotografies" style="text-align:left">Fotografies</label>
-												<div class="controls" style="margin-left:0px"><input type="hidden" name="MAX_FILE_SIZE" value="204800"><input type="hidden" name="f2mauthext" value=""><input type="file" name="FilenameUpload" id="FilenameUpload" style="display:none">
-													<div class="input-append"><input type="text" id="FilenameUploadProxyEdit" class="input-medium" disabled readonly><a class="btn" id="FilenameUploadProxyBtn"><i class="fa fa-file"></i></a>
+										<form class="form-horizontal" name="F4FV3e2TP" id="F4FV3e2TP" onsubmit="return validateForm_4FV3e2TP( this );" method="POST" action="_iserv/form2mail/form2mail.php" target="_top" enctype="multipart/form-data">
+											<input type="hidden" name="f2mlang" value="es">
+											<input type="hidden" name="f2msitelang" value="es">
+											<input type="hidden" name="f2memail" value="fva@falconsdevallbonadanoia.com">
+											<input type="hidden" name="f2memail_exp" value="">
+											<input type="hidden" name="f2msubj" id="Contact" value="Contact">
+											<input type="hidden" name="f2murl" value="http://www.falconsdevallbonadanoia.com/index.php">
+												<div class="control-group"><label class="control-label required" for="nom" style="text-align:left">Nom</label>
+													<div class="controls" style="margin-left:0px"><input type="text" name="nom" id="nom" value="" maxlength="50" class="input-large" required>
 													</div>
 												</div>
-											</div>-->
-											<div class="control-group"><label class="control-label required" for="missatge" style="text-align:left">Missatge</label>
-												<div class="controls" style="margin-left:0px"><textarea name="missatge" id="missatge" value="" rows="5" class="input-large" required></textarea>
+												<div class="control-group"><label class="control-label required" for="email" style="text-align:left">Email</label>
+													<div class="controls" style="margin-left:0px"><input type="email" name="email" id="email" value="" class="input-large" required pattern="^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$" title="Información Email debe ser una dirección válida de correo electrónico">
+													</div>
 												</div>
-											</div>
-											<div class="form-actions" style="background-color:transparent;padding-left:0;margin-left:0;padding-bottom:0">
-												<button type="submit" class="btn btn-primary">Enviar</button>
-												<button type="reset" class="btn" style="margin-left=100px">Cancelar</button>
-											</div>
+												<div class="control-group"><label class="control-label" for="asumpte" style="text-align:left">Asumpte</label>
+													<div class="controls" style="margin-left:0px"><select name="asumpte" class="input-large"><option value="contractaci">Contractació</option><option value="informaci">Informació</option><option value="altres">Altres...</option></select>
+													</div>
+												</div>
+												<!--<div class="control-group"><label class="control-label" for="fotografies" style="text-align:left">Fotografies</label>
+													<div class="controls" style="margin-left:0px">
+														<input type="hidden" name="MAX_FILE_SIZE" value="204800">
+														<input type="hidden" name="f2mauthext" value="">
+														<input type="file" name="FilenameUpload" id="FilenameUpload" style="display:none">
+															<div class="input-append"><input type="text" id="FilenameUploadProxyEdit" class="input-medium" disabled readonly><a class="btn" id="FilenameUploadProxyBtn"><i class="fa fa-file"></i></a>
+															</div>
+													</div>
+												</div>-->
+												<div class="control-group"><label class="control-label required" for="missatge" style="text-align:left">Missatge</label>
+													<div class="controls" style="margin-left:0px"><textarea name="missatge" id="missatge" value="" rows="5" class="input-large" required></textarea>
+													</div>
+												</div>
+												<div class="form-actions" style="background-color:transparent;padding-left:0;margin-left:0;padding-bottom:0">
+													<button type="submit" class="btn btn-primary">Enviar</button>
+													<button type="reset" class="btn">Cancelar</button>
+												</div>
 										</form>
 									</div>
 							</div>
